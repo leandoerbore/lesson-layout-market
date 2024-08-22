@@ -26,11 +26,15 @@ body {
 
 .header {
   position: relative;
+  background-image: url("./public/hero.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-blend-mode: multiply; */
 }
 
 .header__background-img {
-  /* position: absolute;
-    object-fit: fill; */
+  position: absolute;
+  object-fit: cover;
 }
 
 .contacts {
@@ -44,7 +48,7 @@ body {
 
   padding-top: 30px;
 
-  /* color: var(--font-color-white); */
+  color: var(--font-color-white);
 }
 
 .contacts__item {
@@ -90,5 +94,5 @@ body {
   font-size: 60px;
   line-height: 72px;
   text-align: center;
-  /* color: var(--font-color-white); */
+  color: var(--font-color-white);
 }
