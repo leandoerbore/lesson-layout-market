@@ -1,5 +1,13 @@
 :root {
   --desktop-width: 1129px;
+
+  --font-color-white: #ffffff;
+}
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -35,6 +43,8 @@ body {
   padding: 0;
 
   padding-top: 30px;
+
+  /* color: var(--font-color-white); */
 }
 
 .contacts__item {
@@ -51,8 +61,6 @@ body {
 }
 
 .contacts__title {
-  margin: 0;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -72,6 +80,8 @@ body {
   flex-direction: column;
   align-items: center;
 
+  padding-block: 130px 210px;
+
   gap: 32px;
 }
 
@@ -80,4 +90,5 @@ body {
   font-size: 60px;
   line-height: 72px;
   text-align: center;
+  /* color: var(--font-color-white); */
 }
