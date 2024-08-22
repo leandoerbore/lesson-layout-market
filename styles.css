@@ -122,7 +122,7 @@ body {
   flex-direction: column;
   align-items: center;
 
-  padding-block: 120px;
+  padding-block: 120px 295px;
 }
 
 .shop__title {
@@ -149,7 +149,6 @@ body {
   grid-template-columns: repeat(3, 352px);
   column-gap: 34px;
   row-gap: 38px;
-  margin-block: 0 64px;
 }
 
 .shop__card {
@@ -253,21 +252,66 @@ body {
   background: #eeeeee;
 }
 
-.banner {
-  position: relative;
+/* VIDEO start */
+.video-banner {
+  position: absolute;
+  bottom: -175px;
+  z-index: 5;
+
   display: flex;
-  justify-content: center;
-  bottom: -100px;
+  flex-direction: column;
+  align-items: center;
+
+  width: 1125px;
+  /* height: 350px; */
+  height: 350px;
+  border-radius: 15px;
+
+  background-image: url("./public/images/video/video.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.video-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.5;
+  background-color: var(--font-color-black);
+
+  border-radius: 15px;
+}
+
+.video-banner__title {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--font-color-white);
+
+  padding-block: 80px 36px;
   z-index: 5;
 }
-.banner__wrapper {
-  width: 400px;
-  height: 200px;
 
+.video-banner__button {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  background-color: var(--font-color-white);
+  opacity: 0.2;
+
+  display: flex;
   align-items: center;
-  text-align: center;
-
-  background-color: aqua;
-
-  margin-block: 64px;
+  justify-content: center;
 }
+
+.video-banner__button-img {
+  opacity: 1;
+  z-index: 6;
+}
+
+/* VIDEO end */
