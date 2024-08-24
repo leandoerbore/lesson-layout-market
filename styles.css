@@ -27,6 +27,8 @@ body {
 
   font-family: "RF Dewi";
   font-weight: 400;
+
+  cursor: default;
 }
 
 .wrapper {
