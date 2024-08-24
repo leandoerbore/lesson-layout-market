@@ -480,3 +480,49 @@ body {
 }
 
 /* PRODUCTION end */
+
+/* COLLAB start */
+
+.collab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-block: 764px 80px;
+}
+
+.collab__title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 52px;
+
+  color: var(--font-color-white);
+
+  text-align: center;
+}
+
+.collab__text {
+  font-size: 16px;
+  line-height: 24px;
+
+  color: var(--font-color-white);
+
+  text-align: center;
+
+  padding-block: 40px 115px;
+}
+
+.collab__table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+}
+
+.collab__card {
+}
+.collab__card-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* COLLAB end */
