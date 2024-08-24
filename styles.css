@@ -50,6 +50,7 @@ body {
   @media (max-width: 1205px) {
     max-width: unset;
     padding: 0 30px;
+    box-sizing: border-box;
   }
 }
 
@@ -118,6 +119,10 @@ body {
   @media (max-width: 1205px) {
     justify-content: space-around;
   }
+}
+
+.contacts li:last-of-type {
+  text-align: right;
 }
 
 .contacts__item {
