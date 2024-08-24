@@ -520,6 +520,10 @@ body {
   gap: 80px;
 
   padding-block: 96px;
+
+  @media (max-width: 1205px) {
+    padding-block: 110px 96px;
+  }
 }
 
 .options__title {
@@ -527,12 +531,22 @@ body {
   font-size: 48px;
   line-height: 52px;
   text-align: center;
+
+  @media (max-width: 1205px) {
+    font-size: 35px;
+    line-height: 38px;
+  }
 }
 
 .options__table {
   display: grid;
   grid-template-columns: repeat(2, 543px);
   gap: 37px;
+
+  @media (max-width: 1205px) {
+    grid-template-columns: repeat(1, 395px);
+    gap: 37px;
+  }
 }
 .options__card {
   display: flex;
