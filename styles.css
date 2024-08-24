@@ -73,11 +73,21 @@ body {
 }
 
 .contacts__item {
+  position: relative;
   width: fit-content;
+
+  top: 0;
 
   size: 14px;
   line-height: 21px;
   font-weight: 400;
+}
+
+.contacts__item_centered {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .contacts__item span:first-of-type {
@@ -86,10 +96,17 @@ body {
 }
 
 .contacts__title {
+  position: relative;
+  top: 8px;
   font-size: 16px;
   line-height: 24px;
 
   text-align: center;
+}
+
+.contacts__title span:first-of-type {
+  font-size: 25px;
+  line-height: 30px;
 }
 
 .hero {
