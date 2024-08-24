@@ -14,7 +14,12 @@
 
   cursor: pointer;
 
-  transition: all 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+
+  @media (max-width: 1205px) {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
 
 .button:hover {
