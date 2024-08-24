@@ -235,6 +235,10 @@ body {
   align-items: center;
 
   padding-block: 120px 295px;
+
+  @media (max-width: 1205px) {
+    padding-block: 57px 284px;
+  }
 }
 
 .shop__title {
@@ -243,17 +247,26 @@ body {
   line-height: 52px;
 
   text-align: center;
+
+  @media (max-width: 1205px) {
+    font-size: 30px;
+    line-height: 33px;
+  }
 }
 
 .shop__text {
   display: inline-block;
   padding-block: 48px 64px;
-  width: 734px;
+  max-width: 734px;
 
   font-size: 16px;
   line-height: 24px;
 
   text-align: center;
+
+  @media (max-width: 1205px) {
+    max-width: 543px;
+  }
 }
 
 .shop__table {
@@ -261,6 +274,10 @@ body {
   grid-template-columns: repeat(3, 352px);
   column-gap: 34px;
   row-gap: 38px;
+
+  @media (max-width: 1205px) {
+    grid-template-columns: repeat(2, 251px);
+  }
 }
 
 .shop__card {
@@ -320,6 +337,11 @@ body {
   top: -12px;
   font-size: 18px;
   line-height: 22px;
+
+  @media (max-width: 1205px) {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
 
 /* SHOP end */
