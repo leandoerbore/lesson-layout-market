@@ -97,6 +97,14 @@ body {
   z-index: 5;
 }
 
+.contacts__href {
+  transition: color 0.3s ease-in-out;
+}
+
+.contacts__href:hover {
+  color: #e6e6e6;
+}
+
 .contacts__href::before {
   content: "";
   position: absolute;
