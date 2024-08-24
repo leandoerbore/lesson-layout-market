@@ -586,6 +586,10 @@ body {
   align-items: center;
 
   padding-block: 96px;
+
+  @media (max-width: 1205px) {
+    padding-block: 110px 96px;
+  }
 }
 
 .work-scheme__title {
@@ -596,6 +600,11 @@ body {
   text-align: center;
 
   color: var(--font-color-white);
+
+  @media (max-width: 1205px) {
+    font-size: 46px;
+    line-height: 50px;
+  }
 }
 
 .work-scheme__text {
@@ -606,6 +615,11 @@ body {
   color: var(--font-color-white);
 
   padding-block: 36px 70px;
+
+  @media (max-width: 1205px) {
+    padding-block: 46px 110px;
+    max-width: 573px;
+  }
 }
 
 .work-scheme__text-href {
@@ -620,6 +634,10 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 33px;
+
+  @media (max-width: 1205px) {
+    grid-template-columns: repeat(2, 252px);
+  }
 }
 
 .work-scheme__card {
