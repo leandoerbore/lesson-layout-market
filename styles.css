@@ -3,6 +3,7 @@
 
   --font-color-white: #ffffff;
   --font-color-black: #191919;
+  --font-color-hover-link: yellow;
 }
 
 a {
@@ -102,7 +103,7 @@ body {
 }
 
 .contacts__href:hover {
-  color: #e6e6e6;
+  color: var(--font-color-hover-link);
 }
 
 .contacts__href::before {
@@ -482,6 +483,14 @@ body {
   color: var(--font-color-white);
 
   padding-block: 36px 70px;
+}
+
+.work-scheme__text-href {
+  transition: color 0.3s ease-in-out;
+}
+
+.work-scheme__text-href:hover {
+  color: var(--font-color-hover-link);
 }
 
 .work-scheme__table {
