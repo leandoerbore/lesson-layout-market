@@ -19,6 +19,10 @@ p {
   font-family: "RF Dewi";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;

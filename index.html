@@ -13,7 +13,7 @@
     <title>Магазинчик</title>
   </head>
   <body>
-    <header data-qa="header" class="header">
+    <header data-qa="header" class="header" id="header">
       <div class="wrapper">
         <ul class="contacts">
           <li class="contacts__item">
@@ -45,7 +45,9 @@
               в Санкт-Петербурге
             </h2>
 
-            <button class="button">Отправить запрос</button>
+            <a href="#button-down">
+              <button id="button-up" class="button">Отправить запрос</button>
+            </a>
           </div>
         </section>
       </div>
@@ -545,7 +547,9 @@
             </li>
           </ul>
 
-          <button class="button">Отправить запрос</button>
+          <a href="#header">
+            <button id="button-down" class="button">Отправить запрос</button>
+          </a>
         </div>
       </div>
     </footer>
