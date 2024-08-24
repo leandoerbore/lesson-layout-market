@@ -69,23 +69,27 @@
         <div class="shop__table">
           <!-- TODO: add hover on cards -->
           <div class="shop__card">
-            <img
-              class="shop__card-img"
-              src="./public/images/shop-table/yellow-girl.png"
-              alt="Girl in yellow hoodie"
-            />
-            <p>
+            <div class="shop__card-img_wrapper">
+              <img
+                class="shop__card-img"
+                src="./public/images/shop-table/yellow-girl.png"
+                alt="Girl in yellow hoodie"
+              />
+            </div>
+            <a class="shop__card-href" href="/">
               <span class="shop__card-title">Худи</span>
               <span class="shop__card-cost">от 1650 ₽</span>
-            </p>
+            </a>
           </div>
 
           <div class="shop__card">
-            <img
-              class="shop__card-img"
-              src="./public/images/shop-table/man.png"
-              alt="Man in vsrap t-shirt"
-            />
+            <div class="shop__card-img_wrapper">
+              <img
+                class="shop__card-img"
+                src="./public/images/shop-table/man.png"
+                alt="Man in vsrap t-shirt"
+              />
+            </div>
             <p>
               <span class="shop__card-title">Футболки</span>
               <span class="shop__card-cost">от 510 ₽</span>
@@ -93,11 +97,13 @@
           </div>
 
           <div class="shop__card">
-            <img
-              class="shop__card-img"
-              src="./public/images/shop-table/gray-girl.png"
-              alt="Girl in gray hoodie"
-            />
+            <div class="shop__card-img_wrapper">
+              <img
+                class="shop__card-img"
+                src="./public/images/shop-table/gray-girl.png"
+                alt="Girl in gray hoodie"
+              />
+            </div>
             <p>
               <span class="shop__card-title">Свитшоты</span>
               <span class="shop__card-cost">от 890 ₽</span>
@@ -105,11 +111,13 @@
           </div>
 
           <div class="shop__card">
-            <img
-              class="shop__card-img"
-              src="./public/images/shop-table/blue-girl.png"
-              alt="Girl in blue hoodie"
-            />
+            <div class="shop__card-img_wrapper">
+              <img
+                class="shop__card-img"
+                src="./public/images/shop-table/blue-girl.png"
+                alt="Girl in blue hoodie"
+              />
+            </div>
             <p>
               <span class="shop__card-title">Штаны</span>
               <span class="shop__card-cost">от 1230 ₽</span>
@@ -117,11 +125,13 @@
           </div>
 
           <div class="shop__card">
-            <img
-              class="shop__card-img"
-              src="./public/images/shop-table/bunny-shopper.png"
-              alt="Bunny shopper"
-            />
+            <div class="shop__card-img_wrapper">
+              <img
+                class="shop__card-img"
+                src="./public/images/shop-table/bunny-shopper.png"
+                alt="Bunny shopper"
+              />
+            </div>
             <p>
               <span class="shop__card-title">Шопперы</span>
               <span class="shop__card-cost">от 330 ₽</span>
@@ -129,11 +139,13 @@
           </div>
 
           <div class="shop__card">
-            <img
-              class="shop__card-img"
-              src="./public/images/shop-table/cap.png"
-              alt="Cap vsrap"
-            />
+            <div class="shop__card-img_wrapper">
+              <img
+                class="shop__card-img"
+                src="./public/images/shop-table/cap.png"
+                alt="Cap vsrap"
+              />
+            </div>
             <p>
               <span class="shop__card-title">Кепки</span>
               <span class="shop__card-cost">от 400 ₽</span>
@@ -273,54 +285,55 @@
             поможем реализовать ваши идеи.
           </span>
           <div class="work-scheme__table">
-            <div class="work-scheme__table-card">
-              <div class="work-scheme__table-image_wrapper">
+            <div class="work-scheme__card">
+              <div class="work-scheme__card-image_wrapper">
                 <img
-                  class="work-scheme__table-image"
+                  class="work-scheme__card-image"
                   src="./public/images/work-scheme/person.png"
                   alt=""
                 />
               </div>
-              <span class="work-scheme__table-text">
-                Отправляете заявку или звоните +7 (911) 109-97-07
+              <span class="work-scheme__card-text">
+                Отправляете заявку или звоните
+                <a href="tel:+79111099707">+7 (911) 109-97-07</a>
               </span>
             </div>
 
-            <div class="work-scheme__table-card">
-              <div class="work-scheme__table-image_wrapper">
+            <div class="work-scheme__card">
+              <div class="work-scheme__card-image_wrapper">
                 <img
-                  class="work-scheme__table-image"
+                  class="work-scheme__card-image"
                   src="./public/images/work-scheme/t-shirt.png"
                   alt=""
                 />
               </div>
-              <span class="work-scheme__table-text">
+              <span class="work-scheme__card-text">
                 Разрабатываем лекала и шьём образец
               </span>
             </div>
 
-            <div class="work-scheme__table-card">
-              <div class="work-scheme__table-image_wrapper">
+            <div class="work-scheme__card">
+              <div class="work-scheme__card-image_wrapper">
                 <img
-                  class="work-scheme__table-image"
+                  class="work-scheme__card-image"
                   src="./public/images/work-scheme/machine.png"
                   alt=""
                 />
               </div>
-              <span class="work-scheme__table-text">
+              <span class="work-scheme__card-text">
                 Шьём тираж и наносим принт или вышивку
               </span>
             </div>
 
-            <div class="work-scheme__table-card">
-              <div class="work-scheme__table-image_wrapper">
+            <div class="work-scheme__card">
+              <div class="work-scheme__card-image_wrapper">
                 <img
-                  class="work-scheme__table-image"
+                  class="work-scheme__card-image"
                   src="./public/images/work-scheme/car.png"
                   alt=""
                 />
               </div>
-              <span class="work-scheme__table-text">
+              <span class="work-scheme__card-text">
                 Упаковываем и отгружаем партию
               </span>
             </div>
