@@ -4,6 +4,12 @@
   --font-color-white: #ffffff;
   --font-color-black: #191919;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 h1,
 h2,
 h3,
@@ -81,6 +87,17 @@ body {
   size: 14px;
   line-height: 21px;
   font-weight: 400;
+
+  z-index: 5;
+}
+
+.contacts__href::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .contacts__item_centered {
@@ -88,6 +105,8 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+
+  z-index: 4;
 }
 
 .contacts__item span:first-of-type {
